@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Feature
 
 class ViewController: UIViewController {
 
@@ -14,5 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("Hello from app")
+        Feature().doStuff()
     }
 }
