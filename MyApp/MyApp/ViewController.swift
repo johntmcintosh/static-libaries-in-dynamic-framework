@@ -8,6 +8,7 @@
 
 import UIKit
 import Feature
+import Feature2
 
 class ViewController: UIViewController {
 
@@ -16,5 +17,6 @@ class ViewController: UIViewController {
         
         print("Hello from app")
         Feature().doStuff()
+        Feature2().doStuff()
     }
 }
